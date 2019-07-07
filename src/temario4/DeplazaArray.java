@@ -6,7 +6,7 @@ public class DeplazaArray {
 
         int[] miarray = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
 
-        int num = 48;
+        int num = 8;
         
         System.out.println("El número a intercalar es el : " + num);
         System.out.println("El array inicial es: \n");
@@ -31,7 +31,7 @@ public class DeplazaArray {
 
         }
 
-        for (int i = 0; i <= (miarray.length - 1); i++) {
+        for (int i = 0; i <= (miarray.length-1); i++) {
 
             if (num > miarray[i] && num < miarray[i + 1]) {
 
